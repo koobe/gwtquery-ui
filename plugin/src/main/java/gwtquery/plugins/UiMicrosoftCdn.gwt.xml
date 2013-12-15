@@ -1,0 +1,7 @@
+<module>
+  <inherits name='gwtquery.plugins.Ui' />
+  <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" />
+  <script src="http://ajax.microsoft.com/ajax/jquery.ui/1.8.5/jquery-ui.min.js" />
+</module>
+    
+

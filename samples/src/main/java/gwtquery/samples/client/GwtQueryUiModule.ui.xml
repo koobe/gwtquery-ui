@@ -1,0 +1,43 @@
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+  <g:DockLayoutPanel unit="EM" addStyleNames="dock">
+    <g:north size="4">
+      <g:HTMLPanel addStyleNames="header">
+        <h1 style="display:inline"><a href="GwtQueryUi.html">GWT Query UI Demos</a></h1>
+        <div id="switcher" style="float:right"></div>
+        <script>
+          $(document).ready(function(){
+            $('#switcher').themeswitcher({height:400, width:150});
+          });
+        </script>
+      </g:HTMLPanel>
+    </g:north>
+    <g:west size="20">
+      <g:ScrollPanel addStyleNames="navbar">
+        <g:HTMLPanel >
+          <div class="demos">
+            <g:FlowPanel ui:field="demos" />
+          </div>
+        </g:HTMLPanel>
+      </g:ScrollPanel>
+    </g:west>
+    <g:center>
+      <g:ScrollPanel addStyleNames="demo-panel">
+        <g:FlowPanel ui:field="demo" width="95%">
+          <g:HTMLPanel>
+            <div class="intro">
+              <h2>A re-implementation of the jQuery-UI demos <a href="http://jqueryui.com/demos/">here</a>.</h2>
+  
+              <p>Each sample shows the required HTML and GWT (Java) code for producing the demo.</p>
+  
+              <p>Each sample re-uses the original HTML source. The original JavaScript source was copy-pasted to the Java class and then incrementally re-written into Java. The resulting Java code is thus quite close to the original JavaScript code.</p>
+  
+              <p>You can switch themes using theme switcher widget located at the top-right</p>
+            </div>
+          </g:HTMLPanel>
+        </g:FlowPanel>
+      </g:ScrollPanel>
+    </g:center>
+  </g:DockLayoutPanel>
+
+</ui:UiBinder>

@@ -1,0 +1,27 @@
+<style type="text/css">
+  #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+  #draggable, #draggable-nonvalid { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+</style>
+
+
+<div class="demo" style="height:200px">
+  
+<div id="draggable-nonvalid" class="ui-widget-content">
+  <p>I'm draggable but can't be dropped</p>
+</div>
+
+<div id="draggable" class="ui-widget-content">
+  <p>Drag me to my target</p>
+</div>
+
+<div id="droppable" class="ui-widget-header">
+  <p>accept: '#draggable'</p>
+</div>
+
+</div><!-- End demo -->
+
+<div class="demo-description">
+
+<p>Specify using the <code>accept</code> option which element (or group of elements) is accepted by the target droppable.</p>
+
+</div><!-- End demo-description -->
