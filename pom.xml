@@ -39,12 +39,15 @@
 
     <distributionManagement>
         <repository>
-            <uniqueVersion>false</uniqueVersion>
-            <id>googlecode</id>
-            <url>svn:https://gwtquery-ui.googlecode.com/svn/mavenrepo/</url>
+            <id>teamcollab</id>
+            <url>http://nexus.teamcollab.org/content/repositories/releases/</url>
         </repository>
+        <snapshotRepository>
+            <id>teamcollab</id>
+            <url>http://nexus.teamcollab.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
-
+    
     <dependencyManagement>
         <dependencies>
             <dependency>
