@@ -4,7 +4,7 @@
     <groupId>com.google.gwt</groupId>
     <artifactId>gwtquery-ui-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <name>GwtQuery UI Plugin Project</name>
     <url>http://gwtquery-ui.googlecode.com</url>
     <description>GwtQuery UI is a plugin for GwtQuery for integrating JQuery UI.</description>
